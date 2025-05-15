@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles/style.css" />
+        <title>Центр путешествий</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a class="header__logo-wrapper" href="./"
+                        ><img
+                            class="header__logo"
+                            alt="Логотип центра путешествий"
+                            src="./images/logo.svg"
+                    /></a>
+
+                    <nav class="header__nav">
+                        <a class="header__nav-item" href="./">Главная</a>
+                        <a class="header__nav-item" href="./#services"
+                            >Услуги</a
+                        >
+                        <a class="header__nav-item" href="./#blog">Блог</a>
+                        <a class="header__nav-item" href="./#franchise"
+                            >Франшиза</a
+                        >
+                        <a class="header__nav-item" href="./#promo">Акции</a>
+                        <a class="header__nav-item" href="./#about-us">О нас</a>
+                        <a class="header__nav-item" href="./#contacts"
+                            >Контакты</a
+                        >
+                    </nav>
+                    <div class="header__contacts">
+                        <a
+                            href="tel:+79998887766"
+                            class="header__phone-wrapper"
+                        >
+                            <img
+                                class="header__phone-icon"
+                                alt="Телефон"
+                                src="./images/header-phone-icon.svg"
+                            />
+                            <p class="header__phone-text">+7 (999) 888-77-66</p>
+                        </a>
+                        <button class="header__button">Перезвоните мне</button>
+                    </div>
+                    <button class="header__burger-button">
+                        <div class="header__burger-button-line"></div>
+                        <div class="header__burger-button-line"></div>
+                    </button>
+                </div>
+            </div>
+            <section class="mobile-header">
+                <div class="mobile-header__wrapper">
+                    <div class="mobile-header__top-wrapper">
+                        <a href="tel:+79998887766" class="mobile-header__phone">
+                            <svg
+                                class="mobile-header__phone-icon"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 16 16"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M12.7729 6.80429V6.43816C12.7729 6.38338 12.7729 6.35599 12.7726 6.33282C12.7475 4.58184 11.3342 3.16848 9.58318 3.1434C9.56001 3.14307 9.53262 3.14307 9.47783 3.14307H9.11171M6.56863 5.52991C6.27529 6.20288 6.42375 6.98682 6.94285 7.50592L8.49411 9.05718C9.01322 9.57628 9.79715 9.72475 10.4701 9.4314C11.1431 9.13806 11.927 9.28652 12.4461 9.80562L13.3899 10.7494C13.4356 10.7951 13.4585 10.818 13.477 10.8381C13.932 11.3333 13.932 12.0945 13.477 12.5898C13.4585 12.6099 13.4356 12.6328 13.3899 12.6785L12.8162 13.2521C12.3491 13.7193 11.6756 13.9154 11.0307 13.7721C6.63635 12.7956 3.20446 9.36368 2.22793 4.96933C2.08462 4.3244 2.28073 3.65095 2.74788 3.1838L3.32154 2.61014C3.36726 2.56442 3.39013 2.54155 3.41027 2.52305C3.90549 2.068 4.66669 2.068 5.16191 2.52305C5.18205 2.54155 5.20492 2.56442 5.25064 2.61014L6.19441 3.55391C6.71351 4.07301 6.86198 4.85695 6.56863 5.52991Z"
+                                    stroke="white"
+                                    stroke-width="0.727273"
+                                    stroke-linecap="round"
+                                />
+                            </svg>
+                            +7 (999) 888-77-66
+                        </a>
+
+                        <button class="mobile-header__burger-close">
+                            <svg
+                                class="mobile-header__burger-close-icon"
+                                width="14"
+                                height="14"
+                                viewBox="0 0 14 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M1 1L13 13"
+                                    stroke="white"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                                <path
+                                    d="M13 1L1 13"
+                                    stroke="white"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+
+                            Закрыть
+                        </button>
+                    </div>
+                    <div class="mobile-header__devider"></div>
+                    <div class="mobile-header__content">
+                        <div class="mobile-header__menu">
+                            <a class="mobile-header__logo-wrapper" href="./"
+                                ><img
+                                    class="mobile-header__logo"
+                                    alt="Логотип центра путешествий"
+                                    src="./images/logo.svg"
+                            /></a>
+                            <nav class="mobile-header__nav-items">
+                                <a class="mobile-header__menu-item" href="./"
+                                    >Главная</a
+                                >
+                                <a
+                                    class="mobile-header__menu-item"
+                                    href="./#services"
+                                    >Услуги</a
+                                >
+                                <a
+                                    class="mobile-header__menu-item"
+                                    href="./#blog"
+                                    >Блог</a
+                                >
+                                <a
+                                    class="mobile-header__menu-item"
+                                    href="./#franchise"
+                                    >Франшиза</a
+                                >
+                                <a
+                                    class="mobile-header__menu-item"
+                                    href="./#promo"
+                                    >Акции</a
+                                >
+                                <a
+                                    class="mobile-header__menu-item"
+                                    href="./#about-us"
+                                    >О нас</a
+                                >
+                                <a
+                                    class="mobile-header__menu-item"
+                                    href="./#contacts"
+                                    >Контакты</a
+                                >
+                            </nav>
+                            <button class="mobile-header__cta-button">
+                                Оставить заявку
+                            </button>
+                        </div>
+                        <address>
+                            <p class="mobile-header__address">
+                                Челябинск, ул. Братьев Кашириных, 95.
+                            </p>
+                            <p class="mobile-header__schedule-title">
+                                График работы специалистов:
+                            </p>
+                            <p class="mobile-header__schedule-text">
+                                пн-пт с&nbsp;9:00 до&nbsp;19:00&nbsp;сб
+                                с&nbsp;11:00 до&nbsp;15:00
+                            </p>
+                        </address>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="first-window">
+                <div class="background-circle background-circle_1"></div>
+                <div class="background-circle background-circle_2"></div>
+                <div class="container">
+                    <div class="first-window__wrapper">
+                        <div class="first-window__text-content">
+                            <div class="first-window__label">
+                                <p class="first-window__label-text">
+                                    Открывайте границы с нами
+                                </p>
+                                <img
+                                    class="first-window__label-img"
+                                    alt="Компас"
+                                    src="./images/compas.svg"
+                                />
+                            </div>
+                            <h1 class="title-h1 first-window__title">
+                                Получите гражданство, вид на&nbsp;жительство
+                                зарубежной страны
+                                <span
+                                    class="first-window__title title-h1 title-h1_colored"
+                                    >вместе с&nbsp;нами</span
+                                >
+                            </h1>
+                            <p class="first-window__description">
+                                Ваш путь за&nbsp;границу начинается
+                                здесь&nbsp;&mdash; без стресса и&nbsp;лишних
+                                затрат.
+                            </p>
+                            <div class="first-window__buttons">
+                                <button
+                                    class="first-window__button-request first-window__button-request_mobile-hide"
+                                >
+                                    Оставить заявку
+                                </button>
+                                <button class="first-window__button-call">
+                                    Перезвоните мне
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="first-window__images">
+                            <img
+                                class="first-window__plane-figure"
+                                alt="Самолётик"
+                                src="./images/plane-figure.svg"
+                            />
+                            <div class="first-window__images-left">
+                                <button
+                                    class="first-window__button-request first-window__button-request_pc-hidden"
+                                >
+                                    Оставить заявку
+                                </button>
+                                <img
+                                    class="first-window__image first-window__image_mobile-hide"
+                                    alt="Паспорта на карте мира"
+                                    src="./images/first-window-image-1.jpg"
+                                />
+                                <img
+                                    class="first-window__image first-window__image_mobile-hide"
+                                    alt="Мужчина с девушкой путешествуют"
+                                    src="./images/first-window-image-2.jpg"
+                                />
+
+                                <img
+                                    class="first-window__image first-window__image_pc-hidden"
+                                    alt="Паспорта на карте мира"
+                                    src="./images/first-window-mobile-image-1.jpg"
+                                />
+                                <img
+                                    class="first-window__image first-window__image_pc-hidden"
+                                    alt="Мужчина с девушкой путешествуют"
+                                    src="./images/first-window-mobile-image-2.jpg"
+                                />
+                            </div>
+                            <div class="first-window__images-right">
+                                <img
+                                    class="first-window__image first-window__image_mobile-hide"
+                                    alt="Природа"
+                                    src="./images/first-window-image-3.jpg"
+                                />
+                                <img
+                                    class="first-window__image first-window__image_pc-hidden"
+                                    alt="Природа"
+                                    src="./images/first-window-mobile-image-3.jpg"
+                                />
+                                <div class="first-window__image-figure">
+                                    <img
+                                        class="first-window__image first-window__image_mobile-hide"
+                                        alt="Мужчина с девушкой путешествуют"
+                                        src="./images/first-window-image-4.jpg"
+                                    />
+                                    <img
+                                        class="first-window__image first-window__image_pc-hidden"
+                                        alt="Мужчина с девушкой путешествуют"
+                                        src="./images/first-window-mobile-image-4.jpg"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="countries">
+                <div class="container">
+                    <div class="countries__wrapper">
+                        <h1 class="title-h2 countries__title">
+                            Страны которые станут родными
+                            <span
+                                class="title-h2 title-h2_colored countries__title"
+                                >с&nbsp;Центром Путешествий &#8470;&nbsp;1</span
+                            >
+                        </h1>
+                        <div
+                            class="splide countries__splide"
+                            aria-label="Splide Basic HTML Example"
+                        >
+                            <div class="splide__track countries__track">
+                                <ul class="splide__list countries__list">
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Греция"
+                                                src="./images/greciya.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Греция
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    Гражданство
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Болгария"
+                                                src="./images/bolgaria.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Болгария
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    ВНЖ, гражданство
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Румыния"
+                                                src="./images/ruminiya.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Румыния
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    гражданство
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Чехия"
+                                                src="./images/chehiya.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Чехия
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    гражданство
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Сербия"
+                                                src="./images/serbia.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Сербия
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    гражданство, ВНЖ
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Португалия"
+                                                src="./images/portugalia.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Португалия
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    ВНЖ
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Словакия"
+                                                src="./images/slovakia.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Словакия
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    ВНЖ
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Черногория"
+                                                src="./images/chernogoria.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Черногория
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    ВНЖ
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Литва"
+                                                src="./images/litva.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Литва
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    гражданство
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Албания"
+                                                src="./images/albania.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Албания
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    ВНЖ
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="ОАЭ"
+                                                src="./images/oae.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    ОАЭ
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    ВНЖ
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a class="splide__slide countries__slide">
+                                        <div class="countries__slide-wrapper">
+                                            <img
+                                                class="countries__slide-img"
+                                                alt="Испания"
+                                                src="./images/ispania.jpg"
+                                            />
+                                            <div class="countries__slide-text">
+                                                <p
+                                                    class="countries__slide-title"
+                                                >
+                                                    Испания
+                                                </p>
+                                                <p
+                                                    class="countries__slide-description"
+                                                >
+                                                    ВНЖ
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="advantages">
+                <div class="background-circle background-circle_3"></div>
+                <div class="container">
+                    <div class="advantages__wrapper">
+                        <div class="advantages__left-wrapper">
+                            <img
+                                class="advantages__image"
+                                alt="Вид на Прагу"
+                                src="./images/vid-na-pragu-noc-u.jpg"
+                            />
+                            <img
+                                class="advantages__image-figure"
+                                alt="Фигура самолета"
+                                src="./images/advantages-figure.svg"
+                            />
+                        </div>
+                        <div class="advantages__right-wrapper">
+                            <h2 class="title-h2 advantages__title">
+                                Наши преимущества
+                            </h2>
+                            <div class="advantages__cards">
+                                <div class="advantages__card">
+                                    <img
+                                        class="advantages__card-image"
+                                        alt="Планета"
+                                        src="./images/planeta-icon.svg"
+                                    />
+                                    <div class="advantages__card-content">
+                                        <h3 class="advantages__card-title">
+                                            50+ стран
+                                        </h3>
+                                        <p class="advantages__card-text">
+                                            доступно к оформлению
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="advantages__card">
+                                    <img
+                                        class="advantages__card-image"
+                                        alt="Планета"
+                                        src="./images/time-icon.svg"
+                                    />
+                                    <div class="advantages__card-content">
+                                        <h3 class="advantages__card-title">
+                                            Быстрое оформление
+                                        </h3>
+                                        <p class="advantages__card-text">
+                                            с минимумом документов
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="advantages__card">
+                                    <img
+                                        class="advantages__card-image"
+                                        alt="Планета"
+                                        src="./images/garant-icon.svg"
+                                    />
+                                    <div class="advantages__card-content">
+                                        <h3 class="advantages__card-title">
+                                            Гарантии
+                                        </h3>
+                                        <p class="advantages__card-text">
+                                            от наших надежных партнеров
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="advantages__card">
+                                    <img
+                                        class="advantages__card-image"
+                                        alt="Планета"
+                                        src="./images/champion-icon.svg"
+                                    />
+                                    <div class="advantages__card-content">
+                                        <h3 class="advantages__card-title">
+                                            Работа под ключ
+                                        </h3>
+                                        <p class="advantages__card-text">
+                                            по всем типам услуг
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta container">
+                <div class="cta__text-content-mobile">
+                    <h2 class="cta__title">Оставьте заявку прямо сейчас!</h2>
+                    <p class="cta__text">
+                        Не&nbsp;откладывайте мечту о&nbsp;путешествии! Оставьте
+                        заявку, и&nbsp;наш менеджер подберёт лучший вариант
+                        отдыха, учитывая все ваши пожелания. Мы&nbsp;работаем
+                        как с&nbsp;эконом-предложениями, так
+                        и&nbsp;с&nbsp;премиальными путешествиями.
+                    </p>
+                </div>
+                <div class="cta__wrapper">
+                    <div class="cta__text-content">
+                        <h2 class="cta__title">
+                            Оставьте заявку прямо сейчас!
+                        </h2>
+                        <p class="cta__text">
+                            Не&nbsp;откладывайте мечту о&nbsp;путешествии!
+                            <span class="cta__text cta__text_bold"
+                                >Оставьте заявку</span
+                            >, и&nbsp;наш менеджер подберёт лучший вариант
+                            отдыха, учитывая все ваши пожелания.
+                            Мы&nbsp;работаем как с&nbsp;эконом-предложениями,
+                            так и&nbsp;с&nbsp;премиальными путешествиями.
+                        </p>
+                    </div>
+                    <button class="cta__button">Оставить заявку</button>
+                </div>
+            </section>
+
+            <section class="answers">
+                <div class="container">
+                    <div
+                        class="splide answers__splide"
+                        role="group"
+                        aria-label="Splide Basic HTML Example"
+                    >
+                        <div class="splide__track answers__track">
+                            <ul class="splide__list answers__list">
+                                <div class="splide__slide answers__slide">
+                                    <h3 class="answers__title">
+                                        Почему стоит получить гражданство
+                                        зарубежом
+                                    </h3>
+                                    <div class="answers__texts">
+                                        <p class="answers__text">
+                                            В&nbsp;нашем агентстве сейчас можно
+                                            оформить ВНЖ в&nbsp;таких странах
+                                            как Португалия, Испания, Словакия,
+                                            Болгария, а&nbsp;также Сербия
+                                            и&nbsp;Черногория. Первые три
+                                            страны&nbsp;&mdash; это страны
+                                            Евросоюза и&nbsp;члены Шенгенского
+                                            соглашения&nbsp;&mdash; что
+                                            позволяет обладателю ВНЖ посещать
+                                            их&nbsp;без ограничений.
+                                        </p>
+
+                                        <p class="answers__text">
+                                            Болгария&nbsp;&mdash;
+                                            с&nbsp;1&nbsp;апреля 2024 года тоже
+                                            присоединилась к&nbsp;Шенгенской
+                                            зоне. Сербия
+                                            и&nbsp;Черногория&nbsp;&mdash; это
+                                            страны, максимально лояльные
+                                            к&nbsp;россиянам, они находятся
+                                            на&nbsp;европейском континенте,
+                                            и&nbsp;в&nbsp;них проживает много
+                                            наших с&nbsp;вами соотечественников.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="splide__slide answers__slide">
+                                    <h3 class="answers__title">Ещё вопрос</h3>
+                                    <div class="answers__texts">
+                                        <p class="answers__text">
+                                            В&nbsp;нашем агентстве сейчас можно
+                                            оформить ВНЖ в&nbsp;таких странах
+                                            как Португалия, Испания, Словакия,
+                                            Болгария, а&nbsp;также Сербия
+                                            и&nbsp;Черногория. Первые три
+                                            страны&nbsp;&mdash; это страны
+                                            Евросоюза и&nbsp;члены Шенгенского
+                                            соглашения&nbsp;&mdash; что
+                                            позволяет обладателю ВНЖ посещать
+                                            их&nbsp;без ограничений.
+                                        </p>
+
+                                        <p class="answers__text">
+                                            Болгария&nbsp;&mdash;
+                                            с&nbsp;1&nbsp;апреля 2024 года тоже
+                                            присоединилась к&nbsp;Шенгенской
+                                            зоне. Сербия
+                                            и&nbsp;Черногория&nbsp;&mdash; это
+                                            страны, максимально лояльные
+                                            к&nbsp;россиянам, они находятся
+                                            на&nbsp;европейском континенте,
+                                            и&nbsp;в&nbsp;них проживает много
+                                            наших с&nbsp;вами соотечественников.
+                                        </p>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="splide__arrows answers__arrows">
+                            <button
+                                class="splide__arrow answers__arrow splide__arrow--prev answers__arrow_prev"
+                            >
+                                <svg
+                                    width="16"
+                                    height="26"
+                                    viewBox="0 0 16 26"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M1.54709 25.3477C2.31184 26.1124 3.55186 26.1124 4.31659 25.3477L13.8877 15.767C15.416 14.2373 15.4154 11.7585 13.8866 10.2294L4.30954 0.652434C3.54481 -0.112335 2.30479 -0.112335 1.54002 0.652434C0.775234 1.41722 0.775234 2.65716 1.54002 3.42195L9.73686 11.6188C10.5018 12.3836 10.5018 13.6236 9.73686 14.3883L1.54709 22.5782C0.782303 23.343 0.782303 24.5828 1.54709 25.3477Z"
+                                        fill="white"
+                                    />
+                                </svg>
+                            </button>
+                            <button
+                                class="splide__arrow answers__arrow splide__arrow--next answers__arrow_next"
+                            >
+                                <svg
+                                    width="16"
+                                    height="26"
+                                    viewBox="0 0 16 26"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M1.54709 25.3477C2.31184 26.1124 3.55186 26.1124 4.31659 25.3477L13.8877 15.767C15.416 14.2373 15.4154 11.7585 13.8866 10.2294L4.30954 0.652434C3.54481 -0.112335 2.30479 -0.112335 1.54002 0.652434C0.775234 1.41722 0.775234 2.65716 1.54002 3.42195L9.73686 11.6188C10.5018 12.3836 10.5018 13.6236 9.73686 14.3883L1.54709 22.5782C0.782303 23.343 0.782303 24.5828 1.54709 25.3477Z"
+                                        fill="white"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="consultation">
+                <img
+                    class="consultation__bg"
+                    alt="Домики у воды"
+                    src="./images/consultation-bg.jpg"
+                />
+
+                <div class="consultation__wrapper">
+                    <div class="consultation__content-wrapper">
+                        <h2 class="consultation__title title-h2">
+                            Бесплатная консультация
+                        </h2>
+                        <p class="consultation__description">
+                            Не уверены, с чего начать? Заполните форму ниже — и
+                            наш специалист свяжется с вами, чтобы ответить на
+                            все вопросы и подобрать оптимальное решение.
+                        </p>
+                    </div>
+
+                    <form class="consultation__form">
+                        <input class="consultation__input" placeholder="Имя" />
+                        <input
+                            class="consultation__input"
+                            placeholder="Телефон"
+                        />
+                        <input
+                            class="consultation__input"
+                            placeholder="Электронная почта"
+                        />
+                        <textarea
+                            type="text"
+                            class="consultation__textarea"
+                            placeholder="Страна, в которую планируется поездка или интересующее направление"
+                            rows="3"
+                        ></textarea>
+                        <button class="consultation__button">
+                            Оставить заявку
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__block">
+                <img
+                    class="footer__figure footer__figure_pc"
+                    alt="Абстракции"
+                    src="./images/footer-figure.svg"
+                />
+                <img
+                    class="footer__figure footer__figure_mobile"
+                    alt="Абстракции"
+                    src="./images/footer-figure-mobile.svg"
+                />
+                <div class="container">
+                    <div class="footer__wrapper">
+                        <address>
+                            <p class="footer__title">NADOTUR г. Челябинск</p>
+                            <a class="footer__phone" href="tel:+79220199514"
+                                >+7 (922) 019-95-14</a
+                            >
+                            <p class="footer__address">
+                                Челябинск, ул. Братьев Кашириных, 95.
+                            </p>
+                            <p class="footer__schedule-title">
+                                График работы специалистов:
+                            </p>
+                            <p class="footer__schedule-text">
+                                пн-пт с&nbsp;9:00 до&nbsp;19:00&nbsp;сб
+                                с&nbsp;11:00 до&nbsp;15:00
+                            </p>
+                        </address>
+                        <a class="footer__privacy" href="./#"
+                            >Политика конфиденциальности</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <section class="modal-consultation fadeOutFromNone none">
+            <div class="modal-consultation__wrapper">
+                <h2 class="modal-consultation__title">
+                    Бесплатная консультация
+                </h2>
+                <form
+                    class="modal-consultation__form"
+                    name="modal-consultation"
+                >
+                    <input
+                        class="modal-consultation__input"
+                        name="fio"
+                        placeholder="Ваше ФИО"
+                    />
+                    <input
+                        class="modal-consultation__input"
+                        name="phone"
+                        placeholder="Номер телефона"
+                    />
+                    <button class="modal-consultation__btn" type="submit">
+                        Оставить заявку
+                    </button>
+                </form>
+
+                <button class="modal-consultation__close">
+                    <svg
+                        width="38"
+                        height="38"
+                        viewBox="0 0 38 38"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M10 10L28 28"
+                            stroke="#2B364C"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                        />
+                        <path
+                            d="M28 10L10 28"
+                            stroke="#2B364C"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </section>
+        <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+        <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js
+"></script>
+        <script src="./js/script.js"></script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const countriesSplide = new Splide('.countries__splide', {
+                    arrows: false,
+                    type: 'loop',
+                    gap: '16px',
+                    perPage: 4,
+                    perMove: 4,
+                    classes: {
+                        pagination: 'splide__pagination countries__pagination',
+                        page: 'splide__pagination__page countries__pagination-page',
+                    },
+
+                    breakpoints: {
+                        1280: {
+                            perMove: 3,
+                            perPage: 3,
+                        },
+                        834: {
+                            perPage: 1,
+                            perMove: 1,
+                            grid: {
+                                rows: 2,
+                                cols: 2,
+                                gap: {
+                                    row: '20px',
+                                    col: '20px',
+                                },
+                            },
+                        },
+
+                        640: {
+                            grid: {
+                                rows: 2,
+                                cols: 2,
+                                gap: {
+                                    row: '10px',
+                                    col: '10px',
+                                },
+                            },
+                        },
+                    },
+                });
+
+                countriesSplide.mount(window.splide.Extensions);
+
+                const answersSplide = new Splide('.answers__splide', {
+                    pagination: false,
+                    drag: false,
+                });
+
+                answersSplide.mount();
+
+                setMobileMenu(
+                    '.header__burger-button',
+                    '.mobile-header',
+                    'mobile-header_show',
+                    '.mobile-header__burger-close',
+                    '.mobile-header__menu-item'
+                );
+
+                setModal(
+                    '.first-window__button-request_mobile-hide',
+                    '.modal-consultation',
+                    '.modal-consultation__close'
+                );
+
+                setModal(
+                    '.first-window__button-request_pc-hidden',
+                    '.modal-consultation',
+                    '.modal-consultation__close'
+                );
+                setModal(
+                    '.first-window__button-call',
+                    '.modal-consultation',
+                    '.modal-consultation__close'
+                );
+                setModal(
+                    '.header__button',
+                    '.modal-consultation',
+                    '.modal-consultation__close'
+                );
+                setModal(
+                    '.mobile-header__cta-button',
+                    '.modal-consultation',
+                    '.modal-consultation__close'
+                );
+                setModal(
+                    '.cta__button',
+                    '.modal-consultation',
+                    '.modal-consultation__close'
+                );
+            });
+        </script>
+    </body>
+</html>
